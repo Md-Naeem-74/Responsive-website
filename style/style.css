@@ -1,0 +1,155 @@
+
+/*CUSTOMIZE NAV BAR  */
+
+.log-brand{
+    display: flex;
+    gap: 1rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1.2rem;
+}
+.headings a{
+    text-decoration: none;
+    
+}
+.headings{
+    display: flex;
+    gap: 1.2rem;
+    
+}
+.home1{
+    color: #FEA301;
+}
+.about{
+    color: brown;
+}
+.Facilities{
+    color: chartreuse;
+}
+.Admission1{
+    color: rgb(11, 241, 60);
+}
+.btn1{
+    background-color: #FEA301;
+    color: white;
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+}
+
+/* REsponsive Nav Bar */
+@media screen and (max-width:576px) {
+    .headings, .btn1, h3{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: initial;
+        padding-bottom: 1rem;
+       
+    }
+    
+    .nvbar{
+    border: 1px solid #FEA301;
+    
+    }
+    .baner-container{
+        flex-direction: column-reverse;
+    }
+    .salmon{
+        width: 100%;
+    }
+    .baner{
+        text-align: center;
+    }
+}
+    
+
+/* baner section */
+.baner{
+    padding-top: 1.2rem;
+}
+.baner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+
+
+}
+.bn1{
+    color: rgb(204, 77, 9);
+}
+
+.bn2{
+    color: rgb(64, 93, 239);
+}
+.btn0{
+width: 12rem;
+height: 3.2rem;
+border-radius: .9rem;
+border: none;
+background-color: black;
+color: white;
+margin-top: 1.2rem;
+}
+
+/* Curriculum section */
+
+.Curriculum{
+    background-image: url(../assets/bg.png);
+    padding-top: 1.2rem;
+    width: 100%;
+    height: 100%;
+}
+.tempo-contain{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 1.8rem;
+    
+}
+.tempo1{
+    height: 29rem;
+    width: 22rem;
+    background: linear-gradient(45deg, #90d9f9, #eef1f2);
+    text-align: center;
+    padding-top: 3rem;
+    border-radius: 19px;
+}
+.tempo2{
+    height: 29rem;
+    width: 22rem;
+    background: linear-gradient(10deg, yellow, white);
+    text-align: center;
+    padding-top: 3rem;
+    border-radius: 19px;
+
+}
+.tempo3{
+    height: 29rem;
+    width: 22rem;
+    background: linear-gradient(10deg, white, blue);
+    text-align: center;
+    padding-top: 3rem;  
+    border-radius: 19px;
+ 
+}
+.container4{
+    text-align: center;
+    padding-top: 4rem;
+}
+
+
+/* baner Responsive */
+
+@media screen and () {
+    
+}
+
+
+
