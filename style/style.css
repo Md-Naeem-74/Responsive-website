@@ -46,6 +46,9 @@
     .headings, .btn1, h3{
         display: none;
     }
+    .lst1{
+        display: none;
+    }
     .container{
         display: flex;
         justify-content: initial;
@@ -66,6 +69,15 @@
     .baner{
         text-align: center;
     }
+
+    .arrow-btn{
+        display: none;
+    }
+    .tempo-contain{
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
     
 
@@ -113,6 +125,9 @@ margin-top: 1.2rem;
     gap: 1.8rem;
     
 }
+.tempo-contain button{
+    padding-top: 100px;
+}
 .tempo1{
     height: 29rem;
     width: 22rem;
@@ -143,13 +158,180 @@ margin-top: 1.2rem;
     text-align: center;
     padding-top: 4rem;
 }
-
-
-/* baner Responsive */
-
-@media screen and () {
+.btn-grp{
+display: flex;
+gap: .8rem;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 5rem;
+   
+}
+.arrow-btn{
+    border-radius: 60%;
+    border: none;
+    background-color: orange;
+    color: white;
     
 }
+.btnn1{
+    border: none;
+    color: red;
+    background: none;
+
+}
+.btnn2{
+    border: none;
+    color: black;
+    background: none;
+}
+.btnn3{
+    border: none;
+    color: blue;
+    background: none;
+}
+
+
+
+
+
+/* our stories */
+
+
+.Curricu1{
+    background-image: url(../assets/bg.png);
+    width: 100%;
+    height: 100%;
+    margin-top: 4rem;
+    background: linear-gradient(30deg, #F9E0B4, rgb(147, 51, 51));
+}
+.container4{
+    padding-bottom: 4rem;
+}
+.but-one{
+    display: flex;
+    justify-content: flex-start;
+    left: 40px;
+    top: 10px;
+    background-color: #00c4cc;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+   }
+   .but-two{
+    background-color: chartreuse;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 174px;
+    height: 38px;
+   }
+   .but-thr{
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 174px;
+    height: 38px;
+   }
+   .but-fr{
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 174px;
+    height: 38px;
+   }
+   .but-f{
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 174px;
+    height: 38px;
+   }
+.bnt{
+    position: relative;
+    left: 39px;
+    top: -20px;
+}
+
+.lst-contain{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+.lst-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 601px;
+    height: 622px;
+    gap: 10px;
+    
+    
+}
+.lst1{
+    width: 540px;
+    height: 630px;
+    background-color: white;
+    border-radius: 13px;
+    
+    
+}
+.lst2{
+    background-color: white;   
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.lst3{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.lst4{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.lst5{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hunt{
+    text-align: center;
+}
+
+.views{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    border: none;
+    
+}
+.btn-view{
+    background-color: black;
+    color: white;
+    width: 12.2rem;
+    height: 3.2rem;
+    border-radius: .8rem;
+}
+.tyn{
+    width: 100%;
+}
+div img{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+
 
 
 
